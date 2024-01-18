@@ -14,10 +14,6 @@
   <a href="#-license">License</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="./src/assets/images/readme-banner.png">
-</p>
-
 <br>
 
 ## 🚀 Technologies
