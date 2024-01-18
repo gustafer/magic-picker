@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- font stuff -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- font stuff -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">MAGIC PICKER</h1>
+        <div class="group">
+            <input type="text" class="input" id="add-option-input" placeholder="Add options to list">
+            <button class="button submit-button" id="add-option-button" onclick="pushValue()">add</button>
+        </div>
+        <br>
+        <div class="group">
+            <input type="text" class="input" id="title-input" placeholder="Title ex:( what do i play? )">
+            <button class="button submit-button" id="change-title-button" onclick="changeTitle()">add</button>
+        </div>
+        <h2 id="list-title">What do i eat today?</h2>
+
+        <h3 id="list" class="list"></h3>
+        <button class="button pick-button" onclick="chooseRandom()">Pick one!</button>
+
+        <h1 id="answer-visor"></h1>
+        <button class="button clear-button" onclick="clearList()">Clear list</button>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>

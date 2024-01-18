@@ -1,0 +1,105 @@
+:root {
+    --dark-primary-color: rgb(94, 2, 155);
+    --dark-background-color: #0A0A0A;
+    --dark-text-color: white;
+    --dark-button-background-color: #000000;
+    --dark-button-hover-color: rgba(255, 255, 255, 0.432);
+  }
+
+body {
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 1rem;
+    text-align: center;
+}
+.title {
+    font-weight: 700;
+    letter-spacing: .4em;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+button, input {
+    margin: auto;
+    display: block;
+}
+/*button style*/
+
+.button {
+    background-color: var(--dark-button-background-color);
+    color: white;
+    border: 1px solid var(--dark-primary-color);
+    border-radius:5px;
+}
+
+.button:hover{
+    border: 1px solid var(--dark-button-hover-color);
+    cursor: pointer;
+}
+
+/*input style*/
+
+.input {
+    height: 1.5em;
+
+    background-color: var(--dark-button-background-color);
+    color: white;
+    border: 1px solid var(--dark-primary-color);
+    border-radius: 5px;
+    max-width: 15rem;
+}
+
+.input:hover{
+  
+    border: 1px solid var(--dark-button-hover-color);
+}
+
+/*main div*/
+
+.main {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top:10rem;
+
+}
+
+/*input + button styling*/
+
+.group {
+    display:flex;
+    margin: auto;
+    gap: 5px;
+}
+
+/*add button styling*/
+
+.submit-button {
+    width: 3rem;
+    height: 1.5rem;
+}
+/* list styling*/
+.list {
+    font-weight: 300;
+}
+/*pick one button styling*/
+
+.pick-button {
+    height: 2rem;
+    width: 10rem;
+}
+
+/*clear list button styling*/
+
+.clear-button {
+    height: 2rem;
+    width: 10rem;
+}
