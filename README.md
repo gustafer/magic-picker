@@ -1,7 +1,7 @@
 <h1 align="center"> Magic Picker </h1>
 
 <p align="center">
-  <img alt="" src="./src/assets/readme-banner.png">
+  <img alt="" src="https://raw.githubusercontent.com/gustafer/magic-picker/main/src/assets/readme-banner.png">
 </p>
 
 <p align="center">This is a simple project i made for you to make your life easier. having trouble choosing things such as whatever you are going to have for dinner? this project is exactly for you.  <br/>
