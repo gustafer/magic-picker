@@ -28,14 +28,14 @@ This project was developed using the following technologies:
 
 ### This project makes your life 10x easier by providing some decisions.
 
-### [See how it actually is live]()
+### [See how it actually is live]('https://gustafer.github.io/magic-picker/src/index.html)
 
 ## 💾 Installation
 
 <h3 align="center"> Clone this rep :</h3>
 
 ```
-git clone https://github.com/gustafer/DaisyDevLinks.git
+git clone https://github.com/gustafer/magic-picker.git
 ```
 <h3 align="center">  Open its folder :</h3>
 
@@ -51,4 +51,4 @@ cd magic-picker
 ### you can also change the title if you need by clicking on the second input and choosing whatever you want.
 
 ## 📖 License
-### This project uses the [MIT License](/MIT-LICENSE.txt).
+### This project uses the [MIT License]('https://github.com/gustafer/magic-picker/blob/main/MIT-LICENSE.txt').
